@@ -34,21 +34,25 @@ Moreover, the notebook introduces several methods to extract information related
 ```python
 import numpy as np  # For linear algebra
 import pandas as pd  # For data processing, CSV file I/O
-
+```python
 
 ### Loading Data from a CSV File
 
+```python
 df = pd.read_csv(r"/C/ToyotaCorolla.csv")
-
+```python
 ### Retrieving Specific Data
 
+```python
 df['Price'] [0:15]
-
+```python
 ### Extracting Data Statistics
 
+```python
 df.dtypes
 df.size
 df.describe()
+```python
 
 
 ### Dataset Utilized

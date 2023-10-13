@@ -28,55 +28,56 @@ Moreover, the notebook introduces several methods to extract information related
 
 ## Code Snippets and Usage
 
-## Code Snippets and Usage
-
 ### Importing Necessary Libraries
+
 ```python
 import numpy as np  # For linear algebra
 import pandas as pd  # For data processing, CSV file I/O
-```python
+
 
 ### Loading Data from a CSV File
 
-```python
+
 df = pd.read_csv(r"/C/ToyotaCorolla.csv")
-```python
+
 ### Retrieving Specific Data
 
-```python
 df['Price'] [0:15]
-```python
+
 ### Extracting Data Statistics
 
-```python
 df.dtypes
 df.size
 df.describe()
-```python
+
+```
 
 
-### Dataset Utilized
-The dataset utilized in this notebook is related to the Toyota Corolla and is available in the /kaggle/input/toyota-corolla/ToyotaCorolla.csv path. It contains various attributes of the cars, such as 'Price', 'Age_08_04', 'Mfg_Month', and 'Doors', among others.
+## Dataset Utilized
+
+The dataset utilized in this notebook is related to the Toyota Corolla and is available in the `/kaggle/input/toyota-corolla/ToyotaCorolla.csv` path. It contains various attributes of the cars, such as 'Price', 'Age_08_04', 'Mfg_Month', and 'Doors', among others.
 
 ### Getting Started
 
 To get started with the notebook:
 
-Ensure that you have Jupyter Notebook installed, or use an online platform that supports it.
-Clone this repository.
-Navigate to the notebook and open it.
-Run the cells to observe the outputs and feel free to modify the code as per your requirements.
+1. Ensure that you have Jupyter Notebook installed, or use an online platform that supports it.
+2. Clone this repository.
+3. Navigate to the notebook and open it.
+4. Run the cells to observe the outputs and feel free to modify the code as per your requirements.
 
 ### Contributing
+
 Feel free to fork this repository, and contributions, issues, and feature requests are welcome!
 
 ### License
+
 This project is open-source and available under the MIT License.
 
 ### Acknowledgements
-The dataset used is from Kaggle's Toyota Corolla dataset.
-The Python environment and libraries are defined by the kaggle/python Docker image.
 
+- The dataset used is from Kaggle's [Toyota Corolla](https://www.kaggle.com/klkwak/toyotacorollacsv) dataset.
+- The Python environment and libraries are defined by the [kaggle/python](https://github.com/kaggle/docker-python) Docker image.
 
 
 
